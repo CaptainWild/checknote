@@ -17,7 +17,7 @@ import { syncState } from 'slices/sync'
 import { loadSettings } from 'slices/settings'
 import { RootState, NoteItem, CategoryItem } from 'types'
 
-const WebNoteApp: React.FC = () => {
+const CheckNoteApp: React.FC = () => {
   const dispatch = useDispatch()
   const { darkTheme } = useSelector((state: RootState) => state.settingsState)
   const { activeFolder, activeCategoryId, notes } = useSelector(
@@ -54,9 +54,9 @@ const WebNoteApp: React.FC = () => {
         <title>
           {activeFolder === Folder.CATEGORY
             ? activeCategory
-              ? `${activeCategory.name} | WebNote`
-              : `WebNote`
-            : `${folderMap[activeFolder]} | WebNote`}
+              ? `${activeCategory.name} | CheckNote`
+              : `CheckNote`
+            : `${folderMap[activeFolder]} | CheckNote`}
         </title>
       </Helmet>
 
@@ -73,4 +73,4 @@ const WebNoteApp: React.FC = () => {
   )
 }
 
-export default WebNoteApp
+export default CheckNoteApp

@@ -2,7 +2,7 @@
 
 ### Simple
 
-WebNote is a simple, plain-text note-taking app for the web with Markdown support. What you see is what you paste. No WYSIWIG, no formatting pasted from the web, and no features you don't need or want.
+CheckNote is a simple, plain-text note-taking app for the web with Markdown support. What you see is what you paste. No WYSIWIG, no formatting pasted from the web, and no features you don't need or want.
 
 ### Organized
 
@@ -29,6 +29,6 @@ npm start
 ### Run in Docker
 
 ```bash
-docker build -t webnote .
-docker run -p 80:80 webnote
+docker build -t checknote.
+docker run -p 80:80 checknote
 ```

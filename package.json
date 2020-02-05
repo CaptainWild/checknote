@@ -1,5 +1,5 @@
 {
-  "name": "WebNote",
+  "name": "CheckNote",
   "version": "0.2.0",
   "description": "Web-based note-taking app with Markdown support",
   "private": false,
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tobe12/WebNote"
+    "url": "git+https://github.com/qualify-dev/CheckNote"
   },
   "keywords": [
     "notes",
@@ -30,7 +30,7 @@
     "react-hooks-redux",
     "gist"
   ],
-  "author": "tobe12",
+  "author": "qualify-dev",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
